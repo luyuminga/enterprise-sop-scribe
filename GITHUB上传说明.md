@@ -33,6 +33,20 @@ git push -u origin main
 git clone git@github.com:luyuminga/enterprise-sop-scribe.git
 ```
 
+## GitHub About 描述（建库 / Settings → General → Description）
+
+推荐（中英短句，About 栏可直接粘贴）：
+
+```text
+Enterprise SOP from work-item Excels — diagram-first confirmation, FDE discovery, knowledge-base prep. 企业SOP标准化 · FDE调研 · 知识库准备
+```
+
+更短版（若字数紧）：
+
+```text
+企业SOP标准化：进场表→流程图/SOP确认→FDE与知识库素材 | Excel-first SOP scribe for FDE & KB
+```
+
 ## Topics（公开时可加）
 
-`sop` `rpa` `knowledge-base` `fde` `agent-skills` `deepseek` `doubao` `enterprise-sop-scribe`
+`sop` `enterprise-sop` `rpa` `knowledge-base` `fde` `agent-skills` `deepseek` `doubao` `enterprise-sop-scribe`

@@ -4,8 +4,11 @@
 
 开源、可拉取即用的 **企业 SOP 标准化辅助包**：用进场表格 + 多平台 AI Agent，把「个人工作事项」整理成**可确认的流程图与作业指导书**，并给 FDE / 知识库留下结构化素材。
 
-> Skill 名：`enterprise-sop-scribe`  
-> 适用：豆包工作台 · DeepSeek Harness · Cursor · 普通大模型对话
+> Skill / 仓库名：`enterprise-sop-scribe`  
+> 适用：豆包工作台 · DeepSeek Harness · Cursor · 普通大模型对话  
+
+**一句话（GitHub Description）：**  
+Enterprise SOP from work-item Excels — diagram-first confirmation, FDE discovery, knowledge-base prep. 企业SOP标准化 · FDE调研 · 知识库准备
 
 ---
 
