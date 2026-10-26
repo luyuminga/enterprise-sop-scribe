@@ -1,5 +1,5 @@
 ---
-name: personal-workflow-scribe
+name: enterprise-sop-scribe
 description: >-
   Open-source enterprise SOP helper: from org/personal work-item Excels, draft As-Is
   flowcharts + SOPs (diagram first), Word confirmation for employees, then FDE touchpoints
@@ -8,9 +8,10 @@ description: >-
   For DeepSeek Harness, 豆包工作台, Cursor, and other agents.
 ---
 
-# 个人业务流梳理（跨平台 Skill）
+# Enterprise SOP Scribe（企业 SOP 梳理 · 跨平台 Skill）
 
-开源目标：**SOP 标准化 · 辅佐 FDE 调研 · 知识库资料准备**。
+开源目标：**企业 SOP 标准化 · 辅佐 FDE 调研 · 知识库资料准备**。  
+（输入仍是个人工作事项表；对外名强调企业 SOP，不叫 personal。）
 
 你正在执行本 Skill。**先完整阅读并遵守**同目录：
 

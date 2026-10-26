@@ -1,10 +1,10 @@
-# 个人业务流梳理包 · Personal Workflow Scribe
+# 企业 SOP 梳理包 · Enterprise SOP Scribe
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 
 开源、可拉取即用的 **企业 SOP 标准化辅助包**：用进场表格 + 多平台 AI Agent，把「个人工作事项」整理成**可确认的流程图与作业指导书**，并给 FDE / 知识库留下结构化素材。
 
-> Skill 名：`personal-workflow-scribe`  
+> Skill 名：`enterprise-sop-scribe`  
 > 适用：豆包工作台 · DeepSeek Harness · Cursor · 普通大模型对话
 
 ---
@@ -40,12 +40,12 @@
 ## 拉取使用
 
 ```bash
-git clone git@github.com:luyuminga/personal-workflow-scribe.git
-# 或：git clone https://github.com/luyuminga/personal-workflow-scribe.git
-cd personal-workflow-scribe
+git clone git@github.com:luyuminga/enterprise-sop-scribe.git
+# 或：git clone https://github.com/luyuminga/enterprise-sop-scribe.git
+cd enterprise-sop-scribe
 ```
 
-仓库名与 Skill 名一致：`personal-workflow-scribe`。宜先 **Private**，稳定后再改为 **Public**。
+仓库名与 Skill 名一致：`enterprise-sop-scribe`。宜先 **Private**，稳定后再改为 **Public**。
 
 ### 1. 先填表
 
@@ -60,8 +60,8 @@ cd personal-workflow-scribe
 |------|------|
 | **通用对话** | 复制 [`01-系统提示词-主规则.md`](./01-系统提示词-主规则.md) 作首条；上传两张表 |
 | **豆包工作台** | 工作伙伴指令用 [`豆包工作伙伴-指令摘要.md`](./豆包工作伙伴-指令摘要.md)；上下文挂本仓库；详见 [05](./05-多平台使用指南.md) |
-| **DeepSeek Harness** | 将本仓库加入 skills，加载 `personal-workflow-scribe`（[`SKILL.md`](./SKILL.md)） |
-| **Cursor** | 项目内打开本仓库，或拷贝到 `~/.cursor/skills/personal-workflow-scribe/` |
+| **DeepSeek Harness** | 将本仓库加入 skills，加载 `enterprise-sop-scribe`（[`SKILL.md`](./SKILL.md)） |
+| **Cursor** | 项目内打开本仓库，或拷贝到 `~/.cursor/skills/enterprise-sop-scribe/` |
 | **项目约定** | 使用根目录 [`AGENTS.md`](./AGENTS.md) |
 
 完整平台说明：[05-多平台使用指南.md](./05-多平台使用指南.md)  
