@@ -57,6 +57,13 @@ cd enterprise-sop-scribe
 - `组织信息填写表.xlsx` — 部门负责人，每部门 1 份  
 - `个人工作事项填写表.xlsx` — 业务同事，每人 1 份  
 
+重新生成空白表（版式源码在仓库内）：
+
+```bash
+pip install openpyxl
+python3 scripts/generate_prefill_forms.py
+```
+
 ### 2. 再挂到 AI
 
 | 环境 | 做法 |
@@ -98,7 +105,9 @@ Word **固定先「一、业务流程图」，再业务背景与步骤**——�
 ├── 04-公开方法与对标.md
 ├── 05-多平台使用指南.md
 ├── 豆包工作伙伴-指令摘要.md
-├── templates/excel/          # 进场空白表
+├── templates/excel/          # 进场空白表（xlsx）
+├── scripts/
+│   └── generate_prefill_forms.py   # 两张进场表的生成代码
 ├── FDE/                      # 收件清单 + Word 导出
 ├── _fixtures/                # 脱敏试跑样例
 └── docs/                     # 设计/实现文档

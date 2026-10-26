@@ -11,3 +11,14 @@
 
 - `组织信息填写表-{公司}-{部门}.xlsx`
 - `个人工作事项填写表-{公司}-{部门}-{姓名}.xlsx`
+
+## 重新生成空白表
+
+若改了版式逻辑，或需要重新导出干净 xlsx：
+
+```bash
+pip install openpyxl
+python3 scripts/generate_prefill_forms.py
+```
+
+生成代码：[`scripts/generate_prefill_forms.py`](../../scripts/generate_prefill_forms.py)
