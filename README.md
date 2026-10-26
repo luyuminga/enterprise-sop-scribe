@@ -40,11 +40,12 @@
 ## 拉取使用
 
 ```bash
-git clone https://github.com/<your-org>/personal-workflow-scribe.git
+git clone git@github.com:luyuminga/personal-workflow-scribe.git
+# 或：git clone https://github.com/luyuminga/personal-workflow-scribe.git
 cd personal-workflow-scribe
 ```
 
-（上传 GitHub 后把上方 URL 换成真实仓库地址。）
+仓库名与 Skill 名一致：`personal-workflow-scribe`。宜先 **Private**，稳定后再改为 **Public**。
 
 ### 1. 先填表
 

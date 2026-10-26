@@ -1,33 +1,38 @@
-# 上传 GitHub 开源（维护者备忘）
+# 上传 GitHub（维护者备忘）
 
-本目录即可作为仓库根目录推送。
+## 仓库名（与 Skill 一致）
 
-## 建议仓库名
+**`personal-workflow-scribe`**
 
-- `personal-workflow-scribe`（推荐，与 Skill name 一致）  
-- 或 `enterprise-sop-scribe`
+- Skill frontmatter：`name: personal-workflow-scribe`
+- 建议路径：`https://github.com/luyuminga/personal-workflow-scribe`
+- 策略：**先 Private，再 Public**（Settings → Danger Zone → Change repository visibility）
 
-## 建议步骤
+## 你手动建库时
+
+1. GitHub → New repository  
+2. Repository name：`personal-workflow-scribe`（不要改名）  
+3. 选 **Private**  
+4. **不要**勾选 Add a README / .gitignore / license（本地已有）  
+5. Create repository  
+
+然后在本目录执行：
 
 ```bash
-cd "/path/to/业务流梳理包"   # 即以本包为根
-git init
-git add .
-git status   # 确认无真实客户 xlsx / 未脱敏样例
-git commit -m "feat: open-source personal workflow scribe for SOP, FDE, and KB prep"
-# 在 GitHub 新建空仓库后：
-git remote add origin git@github.com:<org>/personal-workflow-scribe.git
-git branch -M main
+cd "/Users/mac/Desktop/数谷/合资计划/FDE-Excel表单/业务流梳理包"
+
+git remote add origin git@github.com:luyuminga/personal-workflow-scribe.git
+# 若已存在：git remote set-url origin git@github.com:luyuminga/personal-workflow-scribe.git
+
 git push -u origin main
 ```
 
-## 推送后
+推送成功后，他人（公开后）拉取：
 
-1. 把根 `README.md` 里的 `git clone` URL 换成真实地址  
-2. GitHub About 描述可写：`Enterprise SOP standardization · FDE discovery · Knowledge base prep`  
-3. Topics 建议：`sop` `rpa` `knowledge-base` `fde` `agent-skills` `deepseek` `doubao`
+```bash
+git clone git@github.com:luyuminga/personal-workflow-scribe.git
+```
 
-## 注意
+## Topics（公开时可加）
 
-- `_fixtures` 仅含虚构样例；禁止提交真实客户表  
-- `LICENSE` 为 MIT；若公司要求换许可证，推送前改 LICENSE 与 README 徽章  
+`sop` `rpa` `knowledge-base` `fde` `agent-skills` `deepseek` `doubao` `personal-workflow-scribe`
