@@ -1,11 +1,10 @@
 ---
 name: enterprise-sop-scribe
 description: >-
-  企业 SOP 标准化辅助：从组织/个人工作事项表少问多补生成 As-Is 流程图与作业指导书（先图后文 Word 确认），
-  辅佐 FDE 进场调研，并为知识库准备已确认的 SOP/条目卡。适用于豆包工作台、DeepSeek Harness、Cursor 等。
-  Enterprise SOP standardization from work-item Excels — diagram-first SOPs, employee confirmation,
-  FDE discovery packs, and knowledge-base prep. Triggers: SOP, 作业指导书, 业务流程, FDE, 知识库,
-  工作事项表, 流程确认, RPA调研.
+  企业 SOP 标准化：进场表少问多补，但业务流细节调研清楚；生成开发可读的 As-Is 流程图（节点=角色·系统·动作+字段说明）
+  与作业指导书，Word 先图后文供业务员确认，再派生 FDE 触点与知识库条目。适用于豆包/DeepSeek/Cursor 等。
+  Enterprise SOP from Excels — diagram-first, developer-ready flowcharts, employee confirmation, FDE & KB prep.
+  Triggers: SOP, 流程图开发, 作业指导书, FDE, 知识库, 工作事项表, 流程确认.
 ---
 
 # Enterprise SOP Scribe（企业 SOP 梳理 · 跨平台 Skill）
